@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(134, 76, 46);
+}
+
+div#bag {
+   width: 33%; 
+   text-align: center;
+}
+
+div.group {
+    display: grid;
+    grid-template-columns: 42% 42%;
+    gap: 100px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+div.card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 207, 171);
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+td, th {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+th h4 {
+    font-size: 16px;
+    font-family: 'Roboto';
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(187, 176, 147);
+    border-radius: 8px;
+}
+
+i#head-icon img{
+    max-width: 20px;
+}
